@@ -47,7 +47,7 @@ Create a minimal `release-please-config.json`, e.g., for a single JS package:
 }
 ```
 
-Create an empty `.release-please-manifest.json`
+Create an initial `.release-please-manifest.json` containing only `{}`.
 
 Commit/push/merge these to your remote GitHub repo (using either the repo's
 default branch or a test branch in which case you'll use the `--target-branch`
